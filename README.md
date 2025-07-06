@@ -4,11 +4,9 @@ Potpuno responzivna web aplikacija koja korisnicima omogućuje jednostavnu izrad
 
 [](https://www.google.com/search?q=) ---
 
-## галерија
+## prikaz
 
-| Glavno sučelje | Pregled narudžbe i mobilni prikaz |
-| :---: | :---: |
-| *(Ovdje dodajte screenshot glavnog sučelja)* | *(Ovdje dodajte screenshot mobilnog prikaza)* |
+![prikaz aplikacije](https://media.discordapp.net/attachments/1160268258881056859/1391430720978681877/image.png?ex=686bde57&is=686a8cd7&hm=c5addc6cef8ece0caf412a672f2e08accb068cf543d158835eea72e88cdf9de2&=&format=webp&quality=lossless&width=1441&height=856)
 
 -----
 
