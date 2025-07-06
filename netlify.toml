@@ -1,0 +1,16 @@
+# Konfiguracija za build proces
+[build]
+  command = "npm run build" # Naredba za buildanje Vite projekta
+  publish = "dist"          # Direktorij gdje se nalazi buildana stranica
+
+# Pravila za preusmjeravanje (proxy) za Malfini slike
+[[redirects]]
+  from = "/malfini-proxy/*"
+  to = "https://shop.malfini.com/:splat"
+  status = 200 # Ključno: status 200 ovo pretvara u proxy, a ne u redirect
+
+# Pravila za preusmjeravanje (proxy) za Sol's/Scene7 slike
+[[redirects]]
+  from = "/sols-proxy/*"
+  to = "https://s7g3.scene7.com/:splat"
+  status = 200 # Ključno: status 200 ovo pretvara u proxy, a ne u redirect
