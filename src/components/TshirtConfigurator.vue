@@ -186,11 +186,14 @@ import axios from 'axios';
 import emailjs from '@emailjs/browser';
 
 // --- CONSTANTS ---
-const EMAILJS_SERVICE_ID = 'service_mxfp94i';
-const EMAILJS_TEMPLATE_ID = 'template_pq1gaev';
-const EMAILJS_PUBLIC_KEY = 'GDlGEZWEqZ6axGsYd';
-const IMGBB_API_KEY = '39c41382e894159b4e13746b5bc3cd61';
 
+
+
+// U TshirtConfigurator.vue zamijenite konstante s ovim:
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+const IMGBB_API_KEY = import.meta.env.VITE_IMGBB_API_KEY;
 // --- REACTIVE STATE ---
 const router = useRouter();
 const imageInput = ref(null);

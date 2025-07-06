@@ -28,3 +28,9 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+
+# LOKALNE VARIJABLE OKRUŽENJA - NAJVAŽNIJE!
+.env
+.env.local
+.env.*.local
