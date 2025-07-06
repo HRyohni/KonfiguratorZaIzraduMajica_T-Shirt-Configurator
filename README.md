@@ -1,9 +1,3 @@
-Naravno, evo prijedloga za kvalitetan i detaljan `README.md` file, napisan na hrvatskom i formatiran za GitHub.
-
-Samo trebate kreirati datoteku pod nazivom `README.md` u korijenu (root) vašeg projekta i kopirati ovaj sadržaj u nju.
-
------
-
 # 👕 Konfigurator za Izradu Majica
 
 Potpuno responzivna web aplikacija koja korisnicima omogućuje jednostavnu izradu i narudžbu personaliziranih majica. Aplikacija je izgrađena kao SPA (Single Page Application) koristeći Vue.js 3 i Vuetify 3, s pametnim "backend-less" pristupom za obradu narudžbi.
