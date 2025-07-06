@@ -102,4 +102,5 @@ Generirane datoteke će se nalaziti u `dist` direktoriju.
 
 ## ✍️ Autor
 
-**(Ovdje unesite svoje ime i kontakt, npr. GitHub profil ili email)**
+Leo Matošević
+matosevic.leo@gmail.com
